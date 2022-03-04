@@ -5,14 +5,15 @@ if(isset($_POST['submit'])){
   date_default_timezone_set('Africa/Nairobi');
 
   # access token
-  $consumerKey = 'Keypt7N48B9aSa7P05c3XEY9tTrMO3nw'; //Fill with your app Consumer Key
-  $consumerSecret = 'SQhtNXAk1U2ni28V'; // Fill with your app Secret
+  $consumerKey = 'HcjK8v16S0JfKVzRi2EuQ8lny5UJZMGk'; //Fill with your app Consumer Key
+  $consumerSecret = 'ygEXGD1f5UDX5VLS'; // Fill with your app Secret
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
-  $BusinessShortCode = '174379';
-  $Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';  
-  
+  $BusinessShortCode = '7470776';
+  $Passkey = 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMTYwMjE2MTY1NjI3';  
+//"Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMTYwMjE2MTY1NjI3",    
+
   /*
     This are your info, for
     $PartyA should be the ACTUAL clients phone number or your phone number, format 2547********
